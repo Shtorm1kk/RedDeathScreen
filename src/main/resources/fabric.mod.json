@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "red_death_screen",
+  "version": "${version}",
+  "name": "Red Death Screen",
+  "description": "Shows an unclosable red screen when the local player dies.",
+  "environment": "client",
+  "entrypoints": { "client": ["com.luminia.reddeath.RedDeathScreenClient"] },
+  "mixins": ["red_death_screen.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21"
+  }
+}

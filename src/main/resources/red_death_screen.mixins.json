@@ -1,0 +1,7 @@
+{
+  "required": true,
+  "package": "com.luminia.reddeath.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": ["MinecraftClientMixin"],
+  "injectors": { "defaultRequire": 1 }
+}
